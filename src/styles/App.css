@@ -10,6 +10,16 @@ App.css
   gap: 10px;
 }
 
+#App-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 25px;
+
+  padding: 50px 0;
+}
+
 #Navbar-cont {
   display: flex;
   justify-content: space-between;

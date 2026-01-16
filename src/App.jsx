@@ -17,11 +17,11 @@ function App() {
   const { theme } = useAppContext();
 
   return (
-    <>
+    <section id="App-cont">
       <h1>Todo List:</h1>
       <Navbar />
       <TodoList />
-    </>
+    </section>
   );
 }
 

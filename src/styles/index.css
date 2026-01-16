@@ -4,10 +4,12 @@ index.css
 
 #root {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-flow: column nowrap;
   gap: 50px;
+
+  padding-top: 50px;
 
   width: 100svw;
   min-height: 100svh;
