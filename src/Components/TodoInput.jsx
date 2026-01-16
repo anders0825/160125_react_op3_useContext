@@ -36,6 +36,7 @@ export default function TodoInput() {
         <img
           src={theme === "dark" ? LightAddIcon : DarkAddIcon}
           alt="Add_Icon"
+          onClick={() => onSubmit()}
         />
       </section>
     </>
