@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/book-landing-page/",
+  base: "/160125_react_op3_useContext/",
 });
 
 /*
