@@ -1,0 +1,149 @@
+/* CSS
+App.css 
+*/
+
+.Component-cont {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#Navbar-cont {
+  display: flex;
+  justify-content: space-between;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 100svw;
+  height: 60px;
+
+  padding: 0 10px;
+
+  background-color: var(--bg-alt);
+}
+
+#ThemeBtn-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  font-family: monospace;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#ThemeBtn-cont img {
+  height: 40px;
+  cursor: pointer;
+  border: 2px solid var(--bg-alt);
+  border-radius: 10px;
+  padding: 1px;
+}
+
+#ThemeBtn-cont img:hover {
+  border: 2px solid var(--accent-main);
+}
+
+#ThemeBtn-cont img:active {
+  border: 2px solid var(--accent-main);
+  background-color: var(--accent-main);
+}
+
+#TodoInput-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#TodoInput-cont img {
+  height: 37px;
+  cursor: pointer;
+
+  border: 2px solid var(--bg-alt);
+  border-radius: 100%;
+}
+
+#TodoInput-cont img:hover {
+  border: 2px solid var(--accent-main);
+}
+
+#TodoInput-cont img:active {
+  border: 2px solid var(--accent-main);
+  background-color: var(--accent-main);
+}
+
+#TodoInput-cont input {
+  height: 30px;
+  width: 250px;
+
+  padding: 0 10px;
+
+  border: 2px solid var(--bg-alt);
+
+  border-radius: 5px;
+
+  background-color: var(--bg-main);
+
+  font-family: monospace;
+  font-size: 0.95rem;
+  color: var(--text-main);
+}
+
+#TodoInput-cont input:hover {
+  border: 2px solid var(--accent-main);
+}
+
+#TodoInput-cont input:active {
+  border: 2px solid var(--accent-main);
+  background-color: var(--accent-main);
+}
+
+#TodoList-cont {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column nowrap;
+  gap: 15px;
+}
+
+.todo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 300px;
+
+  padding: 10px;
+
+  border-radius: 10px;
+
+  background-color: var(--bg-alt);
+}
+
+.todo-card .card-input {
+  text-align: center;
+  width: 200px;
+  height: 30px;
+  white-space: nowrap;
+  overflow: scroll;
+  text-overflow: ellipsis;
+
+  padding: 0 5px;
+
+  border: 1px solid var(--bg-alt);
+
+  background-color: var(--bg-alt);
+
+  font-family: monospace;
+  font-size: 1rem;
+  color: var(--text-main);
+}
